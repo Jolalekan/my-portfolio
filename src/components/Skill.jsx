@@ -35,7 +35,7 @@ const Skill = () => {
       initial="initial"
       whileInView="animate"
     >
-      <motion.div variants={variants} className="flex-1 bg-[]">
+      <motion.div variants={variants} className="flex-1 px-3">
         <motion.h1 className="text-2xl font-medium text-center mb-10">SKILLS </motion.h1>
 
         <motion.ul className=" items-center justify-center flex flex-wrap gap-8 lg:gap-16 font-medium text-[18px]">
@@ -90,7 +90,7 @@ const Skill = () => {
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}
       >
-        <div className="text-center px-5 py-10">
+        <div className="text-center px-3 py-10">
           <h2 className="font-medium text-[22px]">INTEREST</h2>
           <p className=" font-medium text-[18px]">
             Brand Strategy, Animations, Creative Development, E-Commerce, Art

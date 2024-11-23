@@ -61,16 +61,8 @@ const AnimatedText =({text})=>{
     <Container>
 
     <motion.div 
-        className="p-4 my-20 lg:flex justify-between gap-10" 
-        // variants={variants} 
-        // initial="initial" 
-        // ref={ref}
-        // animate={isInView && "animate"}
-        // style={{
-          //   "@media (max-width: 768px)": {
-            //     transition: "none",
-        //   },
-        // }}
+        className="p-3 my-20 lg:flex justify-between gap-10" 
+    
     >
  
       {/* RIGHT */}

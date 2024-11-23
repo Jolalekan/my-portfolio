@@ -33,7 +33,7 @@ const Hero = () => {
   return (
     <Container>
       {/* <div className="hero"> */}
-        <div className="pt-20 flex justify-center h-screen">
+        <div className="pt-20 flex justify-center h-screen px-3">
           <motion.div
             className="flex flex-col gap-6"
             variants={textVariant}

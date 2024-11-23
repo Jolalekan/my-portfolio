@@ -62,12 +62,12 @@ const Portfolio = () => {
               <img src={item.img} alt="" className="object-cover rounded-2xl" />
             </motion.div>
             <div className="flex justify-between items-center pt-4">
-              <h3 className="text-[14px] lg:text-[18px] font-medium border rounded-md p-1 ">{item.title}</h3>             
+              <h3 className="text-[12px] lg:text-[18px] font-medium border rounded-md p-1 ">{item.title}</h3>             
        
               <div className="flex items-center gap-3 lg:gap-6">
-                <span className="text-[14px] lg:text-[18px] font-medium border rounded-md p-1 ">{item.purpose}</span>
-              <span className="hover:opacity-75 flex  items-center  text-[14px] lg:text-[18px] font-medium border rounded-md p-1 " onClick={()=>handleClick(item.link)}> 
-               <img src="/assets/link.png" className="w-6 h-6" alt="" />
+                <span className="text-[12px] lg:text-[18px] font-medium border rounded-md p-1 ">{item.purpose}</span>
+              <span className="hover:opacity-75 flex  items-center  text-[12px] lg:text-[18px] font-medium border rounded-md p-1 gap-x-1 " onClick={()=>handleClick(item.link)}> 
+               <img src="/assets/link.png" className="w-4 h-4" alt="" />
                 
                  Live Demo
               </span>
