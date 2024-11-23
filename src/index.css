@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", serif;
+}
+  
+  :root {
+  --primary-text-color: #fff;
+  --white-color: #fff;
+  --black-color: #000;
+  --primary-background-color: rgba(194, 183, 183, 0.5);
+  --secondary-background-color: rgba(0, 0, 0, 0.5);
+  --tertiary-background-color: rgba(0, 0, 0, 0.75);
+  }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}

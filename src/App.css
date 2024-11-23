@@ -1,0 +1,51 @@
+html {
+  scroll-snap-type: y mandatory;
+  scroll-behavior: smooth;
+}
+
+.nav-icons svg{
+  width: 8;
+  height: 8;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "DM Sans", serif;
+}
+
+body {
+  scroll-behavior: smooth;
+  color: var(--white-color);
+  background: linear-gradient(to bottom, var(--primary-background-color), var(--secondary-background-color), var(--tertiary-background-color));
+  }
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+li span {
+  @apply inline-flex bg-gray-300 text-gray-600 px-5 py-1 rounded-full;
+}
+
+li:nth-child(1) span {
+  @apply skew-y-[-20deg];
+}
+
+li:nth-child(2) span {
+  @apply skew-y-[20deg];
+}
+
+li:nth-child(3) span {
+  @apply skew-y-0;
+}
+
+li:nth-child(4) span {
+  @apply skew-y-[-10deg];
+}
+
+li:nth-child(5) span {
+  @apply skew-y-[10deg];
+}
