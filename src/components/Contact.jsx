@@ -70,7 +70,7 @@ const Contact = () => {
           
           
           <motion.button
-            className="hover:opacity-75 shadow-[4px_-1px_24px_-12px_rgba(255,255,255,1)] py-3 px-6 rounded-full border-8  flex justify-center items-center"
+            className=" gap-1 hover:opacity-75 shadow-[4px_-1px_24px_-12px_rgba(255,255,255,1)] py-3 px-6 rounded-full border-8  flex justify-center items-center"
             variants={buttonVariant}
             whileHover="hover"
             onClick={() =>
@@ -78,7 +78,7 @@ const Contact = () => {
             }
           >
             <motion.h2 className="text-[20px] lg:text-[30px] font-medium">
-              Contact Me
+              Contact me
             </motion.h2>
               
               <img src="/assets/link.png" width={28} height={28} alt="" />
@@ -93,24 +93,19 @@ const Contact = () => {
           </div>
 
           <div className="w-full px-4">
-            <ul className="flex justify-between">
-              <a href="#">
-                <img src="/assets/facebook.png" width={28} height={28} alt="" />
+            <ul className="flex justify-center gap-28">
+              <a href="https://github.com/" target="_blank">
+                <img src="/assets/github.png" width={40} height={40} alt="" />
               </a>
-              <a href="#">
+              <a   href="https://x.com/" target="_blank">
                 <img
-                  src="/assets/instagram.png"
-                  width={28}
-                  height={28}
+                  src="/assets/x.png"
+                  width={40}
+                  height={40}
                   alt=""
                 />
               </a>
-              <a href="#">
-                <img src="/assets/youtube.png" width={28} height={28} alt="" />
-              </a>
-              <a href="#">
-                <img src="/assets/dribble.png" width={28} height={28} alt="" />
-              </a>
+             
             </ul>
           </div>
         </div>

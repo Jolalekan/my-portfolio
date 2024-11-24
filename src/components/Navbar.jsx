@@ -6,7 +6,7 @@ const Navbar = () => {
   return (
     <Container>
       <Sidebar/>
-      <div className="hidden lg:flex relative  justify-center h-20 items-center  z-50 ">
+      <div className="my-10 mx-auto fixed top-0 left-0 hidden lg:flex justify-center h-20 items-center z-50 w-full">
         <div className="bg-dark-blue-gray flex items-center justify-between gap-6 py-6 px-20 rounded-full">
           <a href="#Homepage" >
             <div className='hover:opacity-75 flex items-center gap-6 '>
@@ -47,6 +47,7 @@ const Navbar = () => {
         </div>
       </div>
     </Container>
+    
   )
 }
 

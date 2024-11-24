@@ -33,7 +33,7 @@ const Hero = () => {
   return (
     <Container>
       {/* <div className="hero"> */}
-        <div className="pt-20 flex justify-center h-screen px-3">
+        <div className="pt-20 flex justify-center h-screen px-3 my-24">
           <motion.div
             className="flex flex-col gap-6"
             variants={textVariant}
@@ -77,7 +77,7 @@ const Hero = () => {
             >
                 
           <motion.button
-            className="hover:opacity-75 shadow-[4px_-1px_24px_-12px_rgba(255,255,255,1)] py-3 px-6 rounded-full border-8  flex justify-center items-center"
+            className="gap-1 hover:opacity-75 shadow-[4px_-1px_24px_-12px_rgba(255,255,255,1)] py-3 px-6 rounded-full border-8  flex justify-center items-center"
             variants={buttonVariant}
             whileHover="hover"
             onClick={() =>
@@ -85,7 +85,7 @@ const Hero = () => {
             }
           >
             <motion.h2 className="text-[30px] font-medium">
-              Contact Me
+              Contact me
             </motion.h2>
               
               <img src="/assets/link.png" width={28} height={28} alt="" />
