@@ -30,10 +30,9 @@ const Sidebar = () => {
   }
   return (
     <OutsideClickHandler onOutsideClick={handleOutsideClick}>
-
     <motion.div className=" lg:hidden flex flex-col items-center justify-center bg-white text-black" animate={open ? "open" : "closed"}>
       <motion.div className="fixed top-0 left-0 bottom-0  w-48 bg-white z-50" variants={variants}>
-        <Link/>
+        <Link setOpen={setOpen}/>
       </motion.div>
       <ToggleButton setOpen={setOpen}/>
     </motion.div>
