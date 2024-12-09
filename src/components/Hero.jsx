@@ -77,7 +77,7 @@ const Hero = () => {
             >
                 
           <motion.button
-            className="gap-1 hover:opacity-75 shadow-[4px_-1px_24px_-12px_rgba(255,255,255,1)] py-3 px-6 rounded-full border-8  flex justify-center items-center"
+            className="gap-1 hover:opacity-75 shadow-[4px_-1px_24px_-12px_rgba(255,255,255,1)] py-1 px-6 rounded-full border-8  flex justify-center items-center"
             variants={buttonVariant}
             whileHover="hover"
             onClick={() =>
