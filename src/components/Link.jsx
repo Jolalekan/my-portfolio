@@ -1,7 +1,9 @@
 import { motion } from "framer-motion"
+import { useState } from "react"
+
 
 const Links = () => {
-
+  const [open, setOpen] = useState(false)
     const variants ={
    open:
         { transition:{
@@ -57,7 +59,8 @@ const Links = () => {
         {items.map((item)=>(
             <motion.a href={item.link}  key={item.id} variants={itemVariants} whileHover={{scale:1.1}} whileTap={{scale:0.95}}
                 className="text-[28px]"
-            >
+        
+           >
                 {item.title}
             </motion.a>
         ))}

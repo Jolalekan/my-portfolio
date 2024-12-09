@@ -2,6 +2,7 @@ import Link from "./Link"
 import React, { useState } from 'react'
 import ToggleButton from "./ToggleButton"
 import { motion } from "framer-motion"
+import OutsideClickHandler from 'react-outside-click-handler';
 
 const Sidebar = () => {
   const [open, setOpen]= useState(false)
@@ -24,13 +25,19 @@ const Sidebar = () => {
       }
     }
   }
+  const handleOutsideClick = () => {
+    setOpen(false);
+  }
   return (
+    <OutsideClickHandler onOutsideClick={handleOutsideClick}>
+
     <motion.div className=" lg:hidden flex flex-col items-center justify-center bg-white text-black" animate={open ? "open" : "closed"}>
       <motion.div className="fixed top-0 left-0 bottom-0  w-48 bg-white z-50" variants={variants}>
         <Link/>
       </motion.div>
       <ToggleButton setOpen={setOpen}/>
     </motion.div>
+    </OutsideClickHandler>
   )
 }
 
