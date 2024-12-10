@@ -53,7 +53,7 @@ const Portfolio = () => {
     <Container>
       <div className="p-3">
 
-      <h1 className="text-[40px]">Featured Project</h1> 
+      <h1 className="text-[26px]">Featured Project</h1> 
       <div className="flex flex-col gap-2 lg:grid grid-cols-2 lg:gap-10">
         {items.map((item) => (
           <div key={item.id} className="border p-4 rounded-2xl cursor-pointer">     

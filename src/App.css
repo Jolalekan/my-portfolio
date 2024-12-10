@@ -12,10 +12,10 @@ html {
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "DM Sans", serif;
 }
 
 body {
+  font-family: "DM Sans", serif, sans-serif;
   scroll-behavior: smooth;
   color: var(--white-color);
   background: linear-gradient(to bottom, var(--primary-background-color), var(--secondary-background-color), var(--tertiary-background-color));

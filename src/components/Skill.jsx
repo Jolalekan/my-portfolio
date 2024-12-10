@@ -28,7 +28,7 @@ const Skill = () => {
 
   return (
     <Container>
-      <div className="h-full ">
+      <div className="">
     <motion.div
       className="mb-10 w-full  lg:flex justify-between items-center"
       variants={variants}
@@ -38,7 +38,7 @@ const Skill = () => {
       <motion.div variants={variants} className="flex-1 px-3">
         <motion.h1 className="text-2xl font-medium text-center mb-10">SKILLS </motion.h1>
 
-        <motion.ul className=" items-center justify-center flex flex-wrap gap-8 lg:gap-16 font-medium text-[18px]">
+        <motion.ul className=" items-center justify-center flex flex-wrap gap-8 lg:gap-16 font-medium text-[14px]">
           <motion.li variants={variants}>
             <span>Html5</span>
           </motion.li>
@@ -90,9 +90,9 @@ const Skill = () => {
         whileHover={{ scale: 1.1 }}
         whileTap={{ scale: 0.95 }}
       >
-        <div className="text-center px-3 py-10">
+        <div className="text-center px-3-1 ">
           <h2 className="font-medium text-[22px]">INTEREST</h2>
-          <p className=" font-medium text-[18px]">
+          <p className=" font-medium  text-[14px]">
             Brand Strategy, Animations, Creative Development, E-Commerce, Art
             Direction, maximizing user experience.
             <span>See my Github</span>

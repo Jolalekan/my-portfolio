@@ -33,10 +33,10 @@ const Contact = () => {
         variants={variants}
         initial="initial"
         whileInView="animate"
-        className="my-20"
+        className="my-8"
       >
         <motion.div
-          className="my-28 text-center gap-10 flex items-center flex-col mt-20"
+          className="my-14 text-center gap-6 flex items-center flex-col pt-20"
           variants={variants}
         >
           <motion.h1 className="text-[20px] lg:text-[30px] font-thin">
@@ -70,7 +70,7 @@ const Contact = () => {
           
           
           <motion.button
-            className=" gap-1 hover:opacity-75 shadow-[4px_-1px_24px_-12px_rgba(255,255,255,1)] py-3 px-6 rounded-full border-8  flex justify-center items-center"
+            className=" gap-1 hover:opacity-75 shadow-[4px_-1px_24px_-12px_rgba(255,255,255,1)] py-1 px-6 rounded-full border-8  flex justify-center items-center"
             variants={buttonVariant}
             whileHover="hover"
             onClick={() =>
